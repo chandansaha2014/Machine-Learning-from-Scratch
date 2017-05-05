@@ -12,6 +12,7 @@ import os
 import nltk
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.metrics.pairwise import linear_kernel
 from nltk.corpus import stopwords
 import numpy as np
 import numpy.linalg as LA
